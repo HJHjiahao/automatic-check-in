@@ -27,7 +27,7 @@ def submit_file(account, password, site):
     driver.find_element_by_id('un').send_keys(account)
     driver.find_element_by_id('pd').send_keys(password)
     driver.find_element_by_id('index_login_btn').click()
-    time.sleep(5 * random.random())
+    time.sleep(5)
     hms = time.strftime('%H:%M', time.localtime())
     x = random.randrange(2, 4)
     future = str(int(hms[0:2]) + x) + ':' + '35'
@@ -45,5 +45,3 @@ def submit_file(account, password, site):
     driver.find_element_by_css_selector('button[class="dialog_button default rightest fr"]').click()
 
     driver.quit()
-
-    
