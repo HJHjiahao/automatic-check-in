@@ -45,3 +45,5 @@ def submit_file(account, password, site):
     driver.find_element_by_css_selector('button[class="dialog_button default rightest fr"]').click()
 
     driver.quit()
+
+    
