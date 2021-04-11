@@ -2,7 +2,7 @@
 With student_id and password, the script can check in / file automatically for NEU student.
 
 
-you can use clock_in.py and filing.py directly. 
+You can use clock_in.py and filing.py directly. 
 
 Or you can also use alone.7z to get UI, both work.
 # environment
