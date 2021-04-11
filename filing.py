@@ -6,7 +6,7 @@ import random
 random.seed(2021)
 
 
-sites = ['白塔', '全运路', '万达', '奥体', '青年大街']
+sites = ['白塔', '全运路', '万达', '奥体', '青年大街']  # fill in the location randomly
 site = sites[random.randrange(0, len(sites))]
 
 
