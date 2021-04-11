@@ -14,7 +14,8 @@ and then you get your driver_path, like C:/Program Files (x86)/Google/Chrome/App
 2. decompress alone.7z
 3. enter cmd and run: pyinstaller -F -w alone_version.py
    then you get ![image](images/compress.png)
+   (alone.7z in picture is not equal to the counterpart in the webpage)
 4. Congratulations! you can run alone_version.exe in ./dist
-   like ![image](https://github.com/HJHjiahao/automatic-check-in/tree/main/images/app.png)
+   like ![image](images/app.png)
 
 # It's my pleasure to communicate with you in issues/email!
