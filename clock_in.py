@@ -39,3 +39,5 @@ def clock_in(account, password):
     driver.find_element_by_css_selector('button[type="button"][class="el-button el-button--primary"]').click()
 
     driver.quit()
+
+    
